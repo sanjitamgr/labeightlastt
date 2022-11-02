@@ -10,7 +10,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: shresthaajay/nodelast
+      IMAGE_NAME: sanjitamgr/nodelast
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
